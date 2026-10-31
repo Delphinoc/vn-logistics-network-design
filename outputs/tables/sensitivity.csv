@@ -1,0 +1,13 @@
+assumption,change,status,n_hubs,hubs,parcels_day,total_cost_usd_day,cost_per_parcel_usd,fixed_usd_day,trunk_usd_day,outbound_usd_day,handling_usd_day,overflow_3pl_usd_day,pct_parcels_to_3pl,avg_outbound_road_km,est_outbound_hours,pct_demand_within_same_day_km,pct_demand_within_next_day_km,max_hub_utilisation_pct,cost_per_parcel_vs_base_pct
+Hub fixed cost,-25%,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,235192,0.2111,45000,97671,47952,44568,0,0.0,107.6,2.2,71.2,100.0,95.8,-6.0
+Hub fixed cost,+25%,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,265192,0.238,75000,97671,47952,44568,0,0.0,107.6,2.2,71.2,100.0,95.8,6.0
+Outbound line-haul rate,-25%,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,238201,0.2138,60000,97656,35977,44568,0,0.0,107.6,2.2,71.2,100.0,95.9,-4.8
+Outbound line-haul rate,+25%,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,262180,0.2353,60000,97671,59940,44568,0,0.0,107.6,2.2,71.2,100.0,95.8,4.8
+Inbound trunk rate,-25%,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,225774,0.2026,60000,73253,47952,44568,0,0.0,107.6,2.2,71.2,100.0,95.8,-9.8
+Inbound trunk rate,+25%,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,274608,0.2465,60000,122070,47969,44568,0,0.0,107.6,2.2,71.2,100.0,95.9,9.8
+Parcels per capita,-25%,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",835652,202644,0.2425,60000,73253,35964,33426,0,0.0,107.6,2.2,71.2,100.0,71.9,8.0
+Parcels per capita,+25%,Optimal,4,"Ho Chi Minh City, Hanoi, Huế, Ðà Lạt",1392753,307712,0.2209,80000,122400,49602,55710,0,0.0,89.0,1.8,73.3,100.0,100.0,-1.6
+Hub capacity,-25%,Optimal,4,"Ho Chi Minh City, Hanoi, Da Nang, Xuân Lộc",1114203,263727,0.2367,80000,97465,41694,44568,0,0.0,93.6,1.9,72.6,100.0,100.0,5.4
+Hub capacity,+25%,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,250192,0.2245,60000,97671,47952,44568,0,0.0,107.6,2.2,71.2,100.0,76.7,0.0
+Next-day service radius,-25%,Optimal,5,"Huế, Nam Định, Buôn Ma Thuột, Ba Vì, Tân An",1114203,288798,0.2592,100000,100626,43604,44568,0,0.0,97.8,2.0,81.2,100.0,86.6,15.5
+Next-day service radius,+25%,Optimal,3,"Ho Chi Minh City, Hanoi, Da Nang",1114203,245071,0.22,60000,96718,43784,44568,0,0.0,98.2,2.0,71.5,100.0,96.3,-2.0

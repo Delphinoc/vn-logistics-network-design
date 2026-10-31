@@ -1,0 +1,9 @@
+hubs_requested,status,n_hubs,hubs,parcels_day,total_cost_usd_day,cost_per_parcel_usd,fixed_usd_day,trunk_usd_day,outbound_usd_day,handling_usd_day,overflow_3pl_usd_day,pct_parcels_to_3pl,avg_outbound_road_km,est_outbound_hours,pct_demand_within_same_day_km,pct_demand_within_next_day_km,max_hub_utilisation_pct
+1,Infeasible,,,,,,,,,,,,,,,,
+2,Infeasible,,,,,,,,,,,,,,,,
+3,Optimal,3.0,"Hanoi, Biên Hòa, Điện Bàn",1114203.0,250192.0,0.2245,60000.0,97671.0,47952.0,44568.0,0.0,0.0,107.6,2.2,71.2,100.0,95.8
+4,Optimal,4.0,"Ho Chi Minh City, Hanoi, Huế, Buôn Ma Thuột",1114203.0,258962.0,0.2324,80000.0,96943.0,37452.0,44568.0,0.0,0.0,84.0,1.7,73.8,100.0,86.8
+5,Optimal,5.0,"Ho Chi Minh City, Hanoi, Da Nang, Vinh, Buôn Ma Thuột",1114203.0,274294.0,0.2462,100000.0,96768.0,32958.0,44568.0,0.0,0.0,74.0,1.5,77.1,100.0,86.8
+6,Optimal,6.0,"Ho Chi Minh City, Hanoi, Cần Thơ, Da Nang, Vinh, Buôn Ma Thuột",1114203.0,289893.0,0.2602,120000.0,98819.0,26506.0,44568.0,0.0,0.0,59.5,1.2,85.9,100.0,66.9
+7,Optimal,7.0,"Ho Chi Minh City, Hanoi, Haiphong, Cần Thơ, Da Nang, Vinh, Buôn Ma Thuột",1114203.0,306835.0,0.2754,140000.0,99132.0,23136.0,44568.0,0.0,0.0,51.9,1.0,87.4,100.0,66.9
+8,Optimal,8.0,"Ho Chi Minh City, Hanoi, Haiphong, Cần Thơ, Da Nang, Vinh, An Nhơn, Ðà Lạt",1114203.0,324709.0,0.2914,160000.0,99745.0,20396.0,44568.0,0.0,0.0,45.8,0.9,92.2,100.0,65.9

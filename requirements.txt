@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy>=1.26
+pulp==3.3.2
+geonamescache==3.0.2
+matplotlib>=3.8
+pytest>=8.0

@@ -1,0 +1,15 @@
+scenario,response,status,n_hubs,hubs,parcels_day,total_cost_usd_day,cost_per_parcel_usd,fixed_usd_day,trunk_usd_day,outbound_usd_day,handling_usd_day,overflow_3pl_usd_day,pct_parcels_to_3pl,avg_outbound_road_km,est_outbound_hours,pct_demand_within_same_day_km,pct_demand_within_next_day_km,max_hub_utilisation_pct,total_cost_vs_baseline_pct,cost_per_parcel_vs_baseline_pct
+Baseline,keep_network,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,250192,0.2245,60000,97671,47952,44568,0,0.0,107.6,2.2,71.2,100.0,95.8,0.0,0.0
+Baseline,redesign,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,250192,0.2245,60000,97671,47952,44568,0,0.0,107.6,2.2,71.2,100.0,95.8,0.0,0.0
+Peak campaign demand +50%,keep_network,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1671304,452368,0.2707,60000,125123,41522,55504,170219,17.0,74.8,1.5,71.2,83.0,100.0,80.8,20.6
+Peak campaign demand +50%,redesign,Optimal,5,"Ho Chi Minh City, Hanoi, Cần Thơ, Huế, Buôn Ma Thuột",1671304,362134,0.2167,100000,148274,47008,66852,0,0.0,70.3,1.4,82.6,100.0,100.0,44.7,-3.5
+Fuel price +30%,keep_network,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,265482,0.2383,60000,107927,52987,44568,0,0.0,107.6,2.2,71.2,100.0,95.8,6.1,6.1
+Fuel price +30%,redesign,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,265482,0.2383,60000,107927,52987,44568,0,0.0,107.6,2.2,71.2,100.0,95.8,6.1,6.1
+Labour cost +20%,keep_network,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,263905,0.2369,64800,97671,47952,53482,0,0.0,107.6,2.2,71.2,100.0,95.8,5.5,5.5
+Labour cost +20%,redesign,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,263905,0.2369,64800,97671,47952,53482,0,0.0,107.6,2.2,71.2,100.0,95.8,5.5,5.5
+Labour shortage: hub capacity -30%,keep_network,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1114203,307789,0.2762,60000,86754,31677,38512,90846,13.6,82.3,1.6,71.2,86.4,100.0,23.0,23.0
+Labour shortage: hub capacity -30%,redesign,Optimal,4,"Ho Chi Minh City, Hanoi, Biên Hòa, Điện Bàn",1114203,264110,0.237,80000,96988,42554,44568,0,0.0,95.5,1.9,72.1,100.0,100.0,5.6,5.6
+"Combined: demand +30%, fuel +20%, labour +10%",keep_network,Optimal,3,"Hanoi, Biên Hòa, Điện Bàn",1448463,379104,0.2617,62400,124870,48687,57448,85700,9.9,87.1,1.7,71.2,90.1,100.0,51.5,16.6
+"Combined: demand +30%, fuel +20%, labour +10%",redesign,Optimal,4,"Ho Chi Minh City, Hanoi, Da Nang, Xuân Lộc",1448463,340244,0.2349,83200,135478,57834,63732,0,0.0,93.3,1.9,72.6,100.0,100.0,36.0,4.6
+Disruption: Biên Hòa hub offline,keep_network,Optimal,2,"Hanoi, Điện Bàn",1114203,484509,0.4348,40000,56260,23691,21712,342846,51.3,109.1,2.2,35.7,48.7,69.6,93.7,93.7
+Disruption: Biên Hòa hub offline,redesign,Optimal,3,"Hanoi, Bến Cát, Điện Bàn",1114203,252653,0.2268,60000,97392,50693,44568,0,0.0,113.7,2.3,70.9,100.0,95.8,1.0,1.0
